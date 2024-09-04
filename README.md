@@ -1,4 +1,4 @@
 # microfrontend
 Microfrontend applications
 
-This repository is a party of training from microfrontend from https://www.udemy.com/course/microfrontend-course
+This repository is part of the microfrontend training from https://www.udemy.com/course/microfrontend-course
