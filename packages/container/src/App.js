@@ -1,12 +1,21 @@
 import React from "react";
 import MarketingApp from "./components/MarketingApp"
+import Header from "./components/Header";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const App = () => {
-  return <div>
-    <h1>Main Page!!</h1>
-    <hr />
-    <MarketingApp />
-  </div>
+  return (
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" exact>
+            <MarketingApp />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App
